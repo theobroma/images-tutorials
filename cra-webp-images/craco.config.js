@@ -1,5 +1,7 @@
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
+// ================= Choose one  =================
+
 module.exports = {
     webpack: {
         configure: (webpackConfig) => {
@@ -28,3 +30,22 @@ module.exports = {
         },
     },
 };
+
+// module.exports = {
+//     webpack: {
+//         configure: (webpackConfig) => {
+//             webpackConfig.optimization.minimize = true;
+//             webpackConfig.module.rules[1].oneOf[1] = {
+//                 test: /\.(jpe?g|png|webp)$/i,
+//                 use: {
+//                     loader: 'responsive-loader',
+//                     options: {
+//                         adapter: require('responsive-loader/sharp'),
+//                     },
+//                 },
+//             };
+
+//             return webpackConfig;
+//         },
+//     },
+// };

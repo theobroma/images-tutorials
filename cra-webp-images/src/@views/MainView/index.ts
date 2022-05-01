@@ -1,1 +1,3 @@
-export { default } from './MainView';
+// Choose one
+// export { default } from './MainViewResponsive';
+export { default } from './MainViewWebP';

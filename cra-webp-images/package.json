@@ -35,6 +35,7 @@
         "react-router-dom": "^6.3.0",
         "react-scripts": "5.0.1",
         "redux-logger": "^3.0.6",
+        "responsive-loader": "^2.3.0",
         "tss-react": "^3.6.2",
         "typescript": "~4.6.4",
         "zod": "^3.14.4"
@@ -77,6 +78,8 @@
         "imagemin-mozjpeg": "^10.0.0",
         "imagemin-webp": "^7.0.0",
         "netlify-cli": "^10.1.0",
-        "prettier": "^2.6.2"
+        "prettier": "^2.6.2",
+        "sharp": "^0.30.4",
+        "webpack-image-resize-loader": "^5.0.0"
     }
 }

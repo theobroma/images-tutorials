@@ -1,10 +1,12 @@
 import { Container, Grid, Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import React from 'react';
+/* eslint-disable import/no-unresolved */
 import image001 from '../../@assets/images/001.jpg?as=webp';
 import image002 from '../../@assets/images/002.jpg?as=webp';
+/* eslint-enable import/no-unresolved */
 
-const MainView = () => {
+const MainViewResponsive = () => {
   return (
     <Container maxWidth="lg">
       <Box sx={{ flexGrow: 1 }}>
@@ -27,4 +29,4 @@ const MainView = () => {
   );
 };
 
-export default MainView;
+export default MainViewResponsive;
