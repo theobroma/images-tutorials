@@ -1,20 +1,33 @@
 {
-    "name": "react-lazy-loading-image",
-    "version": "0.0.0",
-    "private": false,
-    "license": "ISC",
-    "dependencies": {
-        "classnames": "^2.3.1",
-        "react": "17.x",
-        "react-dom": "17.x"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
-    },
-    "devDependencies": {
-        "react-scripts": "latest"
-    }
+  "name": "react-lazy-loading-image",
+  "version": "0.0.0",
+  "private": false,
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
